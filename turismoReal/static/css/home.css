@@ -1,0 +1,81 @@
+.fondo {
+    background: url("https://pixabay.com/get/g22fbe087e2551a4725e453fd3fabed7b37d589d6fc701776ce78f736454f215860749e7b32432bce8a1a2f24922bcd6b05b21a64aa02a87ced64435aebaea930dc9081ed0d77d1152ee47554f687a216_1920.jpg") center;
+    background-size: cover;
+    width: 100%;
+    color: white;
+    height: 400px;
+}
+
+.imgFondo{
+    opacity: 0.5;
+    width: 100%;
+}
+
+.infoEmpresa {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.titulo {
+    position: absolute;
+    font-size: 28px;
+    top: 10%;
+    left: 28%;
+    right: 28%;
+}
+
+.descripcion {
+    position: absolute;
+    top: 38%;
+    left: 5%;
+    right: 5%;
+}
+
+.copyright {
+    background-color: rgb(255, 231, 133);
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+@media (min-width:319px) and (max-width:412px) {
+    .titulo {
+        font-size: 21px;
+    }
+
+    .descripcion {
+        font-size: 12.5px;
+    }
+}
+
+@media (min-width:413px) and (max-width:455px) {
+    .titulo {
+        font-size: 22px;
+    }
+
+    .descripcion {
+        font-size: 14.5px;
+    }
+}
+
+@media (min-width:274px) and (max-width:319px) {
+    .titulo {
+        font-size: 15px;
+    }
+
+    .descripcion {
+        font-size: 11.5px;
+    }
+}
+
+@media (max-width:274px) {
+    .titulo {
+        font-size: 15px;
+    }
+
+    .descripcion {
+        font-size: 12px;
+    }
+}

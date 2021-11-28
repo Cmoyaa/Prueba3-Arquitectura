@@ -1,0 +1,32 @@
+* {
+    padding-top: 7px;
+}
+
+.formularioRegistro {
+    display: flex;
+    flex-direction: column;
+    margin: auto 25%;
+}
+
+.registro {
+    text-align: center;
+}
+
+.enviar {
+    border-color: white;
+    border-radius: 15px;
+    background-color: lightpink;
+    width: 200px;
+}
+
+.enviar:hover{
+    background-color: rgb(235, 155, 215);
+    transition: .5s all; 
+}
+
+
+@media (max-width:700px) {
+    .formularioContacto {
+        margin: auto;
+    }
+}
