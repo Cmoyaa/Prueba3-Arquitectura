@@ -5,12 +5,12 @@ Prueba3-Arquitectura
 
 # Usuario: admin
 # Contraseña: adminadmin
- Permisos: Puede ver y administrar reservas, contacto, Check-In, Check-Out, Check-List y Panel de administración.
+ Permisos a los templates: Puede ver y administrar reservas, contacto, Check-In, Check-Out, Check-List y Panel de administración.
 
 # Usuario: funcionario
 # Contraseña: duocduoc
-  Permisos: Acceso a Check-In, Check-Out y Check-List
+  Permisos a los templates: Acceso a Check-In, Check-Out y Check-List
 
 # Usuario: cliente
 # Contraseña: duocduoc 
-  Permisos: Acceso a Reserva y Contato
+  Permisos a los templates: Acceso a Reserva y Contato
