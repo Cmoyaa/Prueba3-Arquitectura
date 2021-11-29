@@ -4,5 +4,3 @@ from .models import *
 # Register your models here.
 admin.site.register(Contacto)
 admin.site.register(Reserva)
-admin.site.register(Registro)
-admin.site.register(Login)

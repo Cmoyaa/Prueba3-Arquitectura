@@ -1,5 +1,5 @@
-.fondo {
-    background: url("https://pixabay.com/get/g22fbe087e2551a4725e453fd3fabed7b37d589d6fc701776ce78f736454f215860749e7b32432bce8a1a2f24922bcd6b05b21a64aa02a87ced64435aebaea930dc9081ed0d77d1152ee47554f687a216_1920.jpg") center;
+#fotoFondo {
+    background: url("https://i.ibb.co/BCp2jp5/apartment-1851201.jpg") center;
     background-size: cover;
     width: 100%;
     color: white;
@@ -7,7 +7,7 @@
 }
 
 .imgFondo{
-    opacity: 0.5;
+    opacity: 0.8;
     width: 100%;
 }
 
@@ -31,6 +31,24 @@
     top: 38%;
     left: 5%;
     right: 5%;
+}
+
+#container-cards {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    max-width: 1000px;
+    margin: auto auto;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+#btnLoginRegister {
+    color: white;
 }
 
 .copyright {

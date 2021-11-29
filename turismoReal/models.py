@@ -9,9 +9,9 @@ opcionServExtra = [
 ]
 
 opcionDepartamento = [
-    [0,"Departamento 1"],
-    [1,"Departamento 2"],
-    [2,"Departamento 3"],
+    [0,"Departamento 1, $300.000"],
+    [1,"Departamento 2, $400.000"],
+    [2,"Departamento 3, $550.000"],
 ]
 
 opcionContacto = [
@@ -20,6 +20,12 @@ opcionContacto = [
     [2,"Más información departamentos"],
     [3,"Dudas"],
     [4,"Quejas y/o reclamos"],
+]
+
+opcionPago = [
+    [0,"Tarjeta de crédito"],
+    [1,"Tarjeta de débito"],
+    [2,"Paypal"],
 ]
 
 class Contacto(models.Model):
@@ -34,6 +40,7 @@ class Contacto(models.Model):
 
 class Reserva(models.Model):
     nombre = models.CharField(max_length=50)
+    correo = models.EmailField()
     direccion = models.CharField(max_length=100)
     ciudad = models.CharField(max_length=50)
     pais = models.CharField(max_length=50)
@@ -42,22 +49,7 @@ class Reserva(models.Model):
     acompanantes = models.IntegerField()
     departamento = models.IntegerField(choices=opcionDepartamento)
     servicio_extra = models.IntegerField(choices=opcionServExtra)
-    mensaje = models.TextField()
+    metodo_de_pago = models.IntegerField(choices=opcionPago)
 
     def __str__(self):
         return self.nombre
-
-class Registro(models.Model):
-    correo = models.EmailField()
-    contraseña = models.CharField(max_length=20)
-    repetir_contraseña = models.CharField(max_length=20)
-
-    def __str__(self):
-        return self.correo
-
-class Login(models.Model):
-    correo = models.EmailField()
-    contraseña = models.CharField(max_length=20)        
-
-    def __str__(self):
-        return self.correo

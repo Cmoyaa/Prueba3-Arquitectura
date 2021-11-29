@@ -1,0 +1,60 @@
+{% extends 'paginas/base.html' %}
+
+{% block contenido %} 
+
+    <div class="container5" style="margin:12% 40%;">
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+            <label class="form-check-label" for="flexCheckIndeterminate">
+            ¿Lavaplatos sigue funcionando?
+            </label>
+        </div>
+        <br>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+            <label class="form-check-label" for="flexCheckIndeterminate">
+            ¿La decoración sigue sin ningún detalle?
+            </label>
+        </div>
+        <br>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+            <label class="form-check-label" for="flexCheckIndeterminate">
+            ¿Entrega el control del televisor?
+            </label>
+        </div>
+        <br>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+            <label class="form-check-label" for="flexCheckIndeterminate">
+            ¿Entrega los inmuebles en buena condición?
+            </label>
+        </div>
+        <br>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+            <label class="form-check-label" for="flexCheckIndeterminate">
+            ¿El baño funciona con una correcta normalidad?
+            </label>
+        </div>
+        <br>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+            <label class="form-check-label" for="flexCheckIndeterminate">
+            ¿La cocina quedó limpia?
+            </label>
+        </div>
+        <br>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+            <label class="form-check-label" for="flexCheckIndeterminate">
+            ¿Agregó servicios extra?
+            </label>
+        </div>
+        <br>
+        <div class="enviar" style="text-align: center;">
+            <a class="btn btn-primary" href="{% url 'home' %}" role="submit">Enviar</a>
+        </div>
+    </div>
+
+{% endblock %}

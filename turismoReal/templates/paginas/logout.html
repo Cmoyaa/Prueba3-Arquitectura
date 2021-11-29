@@ -1,20 +1,12 @@
 {% extends 'paginas/base.html' %}
 
-{% load static %}
-
 {% block contenido %} 
 
-{% block css %}
-  <link type="text/css" rel="stylesheet" href="{% static 'app/css/home.css' %}">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"crossorigin="anonymous"></script>
-{% endblock %}
-
-  <section id="fotoFondo" class="py-5 text-center">
+  <section class="py-5 text-center fondo">
     <div class="infoEmpresa">
       <img class="imgFondo" src="https://i.ibb.co/cYkWGVX/Opacado.png" alt="" height="250px">
-      <div class="titulo">Bienvenidos a Turismo Real</div>
-      <div class="descripcion">Tenemos 10 años de experiencia ayudando a los chilenos y a quienes viven en nuestro país a encontrar su nuevo departamento. En nuestra página pueden encontrar departamentos los cuales podrán arrendar por temporada si así gustan. Gracias a la confianza de usuarios, corredores e inmobiliarias, somos la página número uno en calidad de contactos y cantidad de visitas.</div>
+      <div class="titulo">Bienvenidos a turismo real</div>
+      <div class="descripcion">En Tursimo Real llevamos 10 años ayudando a los chilenos y a quienes viven en nuestro país a encontrar su nuevo departamento. En nuestra página puedes encontrar departamentos los cuales podrán arriendar por temporada si así gustan. Gracias a la confianza de usuarios, corredores e inmobiliarias, somos la página número uno en calidad de contactos y cantidad de visitas.</div>
     </div>
   </section>
 
@@ -25,7 +17,7 @@
         <div class="card-body">
           <h5 class="card-title">Departamento 1</h5>
           <p class="card-text">Edificio Lomas del Mar se encuentra muy cerca de las playas y a poca distancia del circuito de restaurantes Costeros.</p>
-          <a href="{% url 'departamento1' %}" class="btn btn-primary">Ver más</a>
+          <a href="{% url 'departamento1' %}" class="btn btn-primary">Go somewhere</a>
         </div>
         <div class="card-footer">
           <small class="text-muted">Actualizado hace 7 días</small>
@@ -39,7 +31,7 @@
         <div class="card-body">
           <h5 class="card-title">Departamento 2</h5>
           <p class="card-text">Edificio Lomas del Mar se encuentra muy cerca de las playas y a poca distancia del circuito de restaurantes Costeros.</p>
-          <a href="{% url 'departamento2' %}" id="cambiar" class="btn btn-primary">Ver más</a>
+          <a href="{% url 'departamento2' %}" id="cambiar" class="btn btn-primary">Go somewhere</a>
         </div>
         <div class="card-footer">
           <small class="text-muted">Actualizado hace 4 días</small>
@@ -52,7 +44,7 @@
         <div class="card-body">
           <h5 class="card-title">Departamento 3</h5>
           <p class="card-text">Edificio Lomas del Mar se encuentra muy cerca de las playas y a poca distancia del circuito de restaurantes Costeros.</p>
-          <a href="{% url 'departamento3' %}" class="btn btn-primary">Ver más</a>
+          <a href="{% url 'departamento3' %}" class="btn btn-primary">Go somewhere</a>
         </div>
         <div class="card-footer">
           <small class="text-muted">Actualizado hace 1 día</small>

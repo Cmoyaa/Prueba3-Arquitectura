@@ -1,0 +1,33 @@
+{% extends 'paginas/base.html' %}
+
+{% load static %}
+
+{% block css %}
+<link type="text/css" rel="stylesheet" href="{% static 'app/css/login.css' %}">
+{% endblock %}
+
+{% block contenido %}
+
+    <div id="loguearse">
+        <div id="cardLogin" class="card text-center">
+            <div id="back-login" class="card-header">
+              Registro de usuario
+            </div>
+            <div class="card-body">
+                {% load crispy_forms_tags %}
+                <form action="" method="post">
+                    <div class="formularioRegistro">
+                        
+                      {% csrf_token %}
+                      
+                      {{ form | crispy }}
+                      
+                      <div class="login">
+                        <button type="submit" class="enviar">Registrarse</button>
+                      </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}

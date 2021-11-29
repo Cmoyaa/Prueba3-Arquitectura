@@ -1,9 +1,6 @@
-.container {
-    margin: 0 20%;
-}
-
 .container2 {
-    margin: 0 35.5%;
+    display: flex;
+    justify-content: center;
 }
 
 .btn{

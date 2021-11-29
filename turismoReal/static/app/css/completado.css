@@ -1,0 +1,20 @@
+.container1 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.titulo {
+    padding-top: 15px;
+}
+
+.imagenFinal {
+    margin: auto auto;
+    max-width: 600px;
+}
+
+.volver {
+    max-width: 150px;
+    margin: auto auto;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, rgb(255, 193, 7),rgb(226, 88, 102));
+}
