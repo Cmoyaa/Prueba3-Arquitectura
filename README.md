@@ -4,7 +4,7 @@
   A partir del usuario con el cual se ingrese, se verán diferentes apartados en la web
 
 # Usuario: admin
- Contraseña: adminadmin
+# Contraseña: adminadmin
  Permisos: Puede ver y administrar reservas, contacto, Check-In, Check-Out, Check-List y Panel de administración.
 
 # Usuario: funcionario
