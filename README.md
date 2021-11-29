@@ -8,7 +8,7 @@ Prueba3-Arquitectura
  Permisos: Puede ver y administrar reservas, contacto, Check-In, Check-Out, Check-List y Panel de administración.
 
 # Usuario: funcionario
-# Contraseña: adminadmin
+# Contraseña: duocduoc
   Permisos: Acceso a Check-In, Check-Out y Check-List
 
 # Usuario: cliente
