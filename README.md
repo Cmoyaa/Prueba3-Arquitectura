@@ -1,4 +1,4 @@
-# Prueba3-Arquitectura
+Prueba3-Arquitectura
 
 # Respetar las minúsculas en el proceso de inicio de sesión
   A partir del usuario con el cual se ingrese, se verán diferentes apartados en la web
